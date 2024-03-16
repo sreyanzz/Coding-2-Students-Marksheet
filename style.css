@@ -1,49 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f7f7f7;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
-    padding: 30px;
-    background-color: #ffffff;
+    padding: 20px;
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
     color: #333;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.mark-sheets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .mark-sheet {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    padding: 20px;
 }
 
-.pass {
-    background-color: hsl(103, 84%, 76%);
+.mark-sheet-header {
+    background-color: #007bff;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
 }
 
-.fail {
-    background-color: hsl(0, 84%, 76%);
+.student-name {
+    font-size: 24px;
+    margin: 0;
 }
 
-.total {
-    font-weight: bold;
+.student-roll {
+    font-size: 16px;
+    margin: 0;
 }
 
 .subject {
-    margin-bottom: 5px;
+    margin: 10px 0;
+}
+
+.subject-name {
+    font-weight: bold;
+}
+
+.subject-mark {
+    font-weight: bold;
 }
 
 .status {
-    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 20px;
 }
